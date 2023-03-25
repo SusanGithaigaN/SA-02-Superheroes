@@ -5,4 +5,7 @@ Rails.application.routes.draw do
   # get powers
   get '/powers', to: 'powers#index'
   get '/powers/:id', to: 'powers#show'
+  # update powers
+  # patch '/powers/:id', to: 'powers#update'
+  resources :powers, only: [:update]
 end
