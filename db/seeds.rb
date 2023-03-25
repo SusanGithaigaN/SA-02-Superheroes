@@ -34,5 +34,12 @@
     HeroPower.create!( hero_id: 3, power_id: 3, strength: "Average")
     HeroPower.create!( hero_id: 4, power_id: 4, strength: "Strong")
     HeroPower.create!( hero_id: 5, power_id: 5, strength: "Weak")
+    HeroPower.create!( hero_id: 6, power_id: 1, strength: "Strong")
+    HeroPower.create!( hero_id: 7, power_id: 2, strength: "Weak")
+    HeroPower.create!( hero_id: 8, power_id: 3, strength: "Average")
+    HeroPower.create!( hero_id: 9, power_id: 4, strength: "Strong")
+    HeroPower.create!( hero_id: 10, power_id: 1, strength: "Strong")
+
+    
 
 # end
