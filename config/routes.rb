@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   # update powers
   # patch '/powers/:id', to: 'powers#update'
   resources :powers, only: [:update]
+
+  post '/hero_powers', to: 'hero_power#create'
 end
