@@ -1,4 +1,10 @@
-class HeroPowerController < ApplicationController
+class HeroPowersController < ApplicationController
+
+    # get all hero powers
+    def index
+        hero_powers = HeroPower.all
+        render json: hero_powers
+    end
 
     # create hero powers
     def create

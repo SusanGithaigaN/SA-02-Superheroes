@@ -9,5 +9,8 @@ Rails.application.routes.draw do
   # patch '/powers/:id', to: 'powers#update'
   resources :powers, only: [:update]
 
-  post '/hero_powers', to: 'hero_power#create'
+  post '/hero_powers', to: 'hero_powers#create'
+  # get all hero powers
+  get '/hero_powers', to: 'hero_powers#index'
+
 end
